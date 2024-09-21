@@ -605,11 +605,11 @@
                         </div>
                     </div>
 
-                    <p class="new-quests">New quests coming soon</p>
+                    <p class="new-quests">Новые задания скоро</p>
                 </div>
 
                 <!-- Изменённый Show More Tasks (Только для Home Tab) -->
-                <button class="show-more-tasks" id="show-more-btn" onclick="toggleAdditionalTasks()">Show more tasks +</button>
+                <button class="show-more-tasks" id="show-more-btn" onclick="toggleAdditionalTasks()">Показать больше заданий +</button>
             </section>
         </div>
 
@@ -658,7 +658,7 @@
             <div class="nav-button-container active" id="container-home">
                 <button class="nav-button active" data-tab="home-tab">
                     <img src="icons/home.png" alt="Home Icon" class="nav-icon">
-                    <span>Home</span> <!-- Изменено с "Menu" на "Home" -->
+                    <span>Меню</span> <!-- Изменено с "Menu" на "Home" -->
                 </button>
             </div>
 
@@ -666,7 +666,7 @@
             <div class="nav-button-container" id="container-leaderboard">
                 <button class="nav-button" data-tab="leaderboard-tab">
                     <img src="icons/leaderboard.png" alt="Leaderboard Icon" class="nav-icon">
-                    <span>Leaderboard</span>
+                    <span>Лидерборд</span>
                 </button>
             </div>
 
@@ -675,7 +675,7 @@
                 <button class="nav-button" data-tab="get-hots-tab">
 
                     <img src="icons/get-hots.png" alt="Get HOT's Icon" class="nav-icon">
-                    <span>Get HOT</span>
+                    <span>Вывести HOT</span>
                 </button>
             </div>
         </nav>
@@ -817,10 +817,10 @@
 
             if (additionalTasks.style.display === 'none') {
                 additionalTasks.style.display = 'block';
-                showMoreBtn.innerText = 'Show less tasks -';
+                showMoreBtn.innerText = 'Скрыть задания -';
             } else {
                 additionalTasks.style.display = 'none';
-                showMoreBtn.innerText = 'Show more tasks +';
+                showMoreBtn.innerText = 'Показать больше заданий +';
             }
         }
 
